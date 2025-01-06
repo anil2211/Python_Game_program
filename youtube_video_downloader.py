@@ -31,7 +31,7 @@ def handle_private_video_error(video_url):
     logger.warning(f"Video '{video_url}' is private or unavailable. Skipping it.")
 
 if __name__ == "__main__":
-    playlist_url = 'https://www.youtube.com/playlist?list=PL9gnSGHSqcnoqBXdMwUTRod4Gi3eac2Ak'
+    playlist_url = 'https://www.youtube.com/playlist'
 
     download_path = '.' 
     download_playlist(playlist_url, download_path)
